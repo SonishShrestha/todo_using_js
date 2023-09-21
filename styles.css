@@ -9,38 +9,57 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    
 }
+
 
 main {
     padding: 20px;
+    margin: 10px;
 }
 
 .add-task {
     display: flex;
     margin-bottom: 20px;
+   
+}
+
+.add-task select{
+    margin: 10px;
 }
 
 .add-task input {
+    margin: 10px;
     flex: 1;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+.add-task button{
+    margin: 10px;
+}
+
 #taskList {
     list-style: none;
     padding: 0;
+    
 }
 
 .task-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    margin-right: 100px;
+    
 }
+
 
 .task-item input[type="checkbox"] {
     margin-right: 10px;
+    
 }
+
 
 .task-item button {
     margin-left: auto;
@@ -52,4 +71,4 @@ main {
     color: #fff;
 }
 
-/* Add more styles for light mode here */
+
