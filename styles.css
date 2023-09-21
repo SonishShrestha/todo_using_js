@@ -3,8 +3,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    
+    color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,4 +71,4 @@ main {
     color: #fff;
 }
 
-
+/* Add more styles for light mode here */
